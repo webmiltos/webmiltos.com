@@ -27,3 +27,5 @@ function addItem() {
 
     }
 }
+
+console.log("JavaScript is working");
