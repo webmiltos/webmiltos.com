@@ -1,0 +1,37 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+heading,
+input,
+button {
+    font-size: 1.2em;
+}
+
+#div {
+    width: 400px;
+    background-color: #efefef;
+    padding: 20px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border-radious: 5px;
+    padding: 2px;
+}
+
+li {
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: lightyellow;
+    border: 1px solid grey;
+}
+
+li button {
+    font-size: 0.8em;
+    margin-left: 2rem;
+    background-color: red;
+    float: right;
+}
