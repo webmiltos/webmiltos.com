@@ -1,3 +1,5 @@
+console.log("JavaScript is working");
+
 const addButton = document.querySelector("#add-button");
 addButton.addEventListener("click", addItem);
 
@@ -28,4 +30,10 @@ function addItem() {
     }
 }
 
-console.log("JavaScript is working");
+function deleteItem(event) {
+    const itemToDelete = event.target.parentElement;
+    itemToDelete.remove();
+}
+
+
+
